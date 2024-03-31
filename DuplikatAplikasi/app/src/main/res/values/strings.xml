@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Duplikat Aplikasi</string>
+    <string name="home">Home</string>
+    <string name="network">My Network</string>
+    <string name="post">Post</string>
+    <string name="notifications">Notifications</string>
+    <string name="jobs">Jobs</string>
+    <string name="name">Nicholas Hutabarat</string>
+    <string name="view">View profile</string>
+    <string name="number_view">3 profile viewers</string>
+    <string name="group">Groups</string>
+    <string name="event">Events</string>
+    <string name="setting">Settings</string>
+    <string name="people_name">Name</string>
+    <string name="people_icon">Icon</string>
+    <string name="people_job">Job</string>
+    <string name="btnFollow">+ Follow</string>
+    <string name="recommend">Recommended for you</string>
+
+    <string-array name="people_names">
+        <item>John Anderson</item>
+        <item>Elise Robinson</item>
+        <item>Luke Johnson</item>
+    </string-array>
+
+    <string-array name="people_icons">
+        <item>@drawable/people1</item>
+        <item>@drawable/people2</item>
+        <item>@drawable/people3</item>
+    </string-array>
+
+    <string-array name="people_jobs">
+        <item>CEO of Point One E-Mobility</item>
+        <item>Copywriter | Marketer | Author</item>
+        <item>Co-Founder of MSI Group</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/ivItemPeople"
+            android:layout_width="240dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:contentDescription="@string/people_icon"
+            app:srcCompat="@drawable/people1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvItemName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/people_name"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvItemJob"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/people_job"
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/btnFollow"
+                android:layout_width="110dp"
+                android:layout_height="50dp"
+                android:background="@drawable/btn"
+                android:text="@string/btnFollow"
+                android:textColor="?attr/btnTextColor"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
